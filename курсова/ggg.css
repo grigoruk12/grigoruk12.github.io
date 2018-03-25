@@ -1,0 +1,58 @@
+﻿*{
+	background-color: cyan	
+}
+.name img{
+	width: 485px;
+	height: 415px;
+
+}
+.name{text-align: center;}
+.question
+{
+font-size:22px;
+text-align: center;
+}
+.info{
+font-size:25px;
+text-align: center;
+
+}
+
+.square{
+	width: 70%;
+	display: block;
+	border: 2px solid;
+	margin: 3px;
+	background-color:#b3ffd9
+}
+.question1
+{
+font-size:27px;
+}
+.knopka{
+	text-align:center;
+	font-size:41px;
+}
+.hand{
+	text-align:center;
+	font-size:21px;
+}
+.true1.chosen{
+	background-color:#4dff4d
+	}
+.true.chosen{
+	background-color:#4dff4d
+	}
+	.true.hosen{
+	background-color:#80ff80
+	}
+
+.false.chosen{
+	background-color:#ff3333
+}
+.true2.chosen{
+	background-color:#4dff4d
+	}
+	.true3.chosen{
+	background-color:#4dff4d
+	}

@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html> 
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Test</title>
+		<link href="ggg.css" rel="stylesheet"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	</head>
+	<body>
+<script>
+$(function() {
+var truek = 0;
+var falsek = 0;
+
+	$(".true").click(function() {
+			$(this).addClass("chosen");
+			$(this).siblings().unbind("click");
+			truek++
+	})
+	
+	$(".true1").click(function() {
+			$(this).addClass("chosen");
+			$(this).siblings().unbind("click");
+			truek++
+			$(this).text("Автобус їде вліво. Тому що, якби він їхав вправо, було б видно вхідні двері!");
+	})
+	$(".true2").click(function() {
+			$(this).addClass("chosen");
+			$(this).siblings().unbind("click");
+			truek++
+			$(this).text("Пташки тільки вирішили полетіти");
+	})
+	$(".true3").click(function() {
+			$(this).addClass("chosen");
+			$(this).siblings().unbind("click");
+			truek++
+			$(this).text("Шерлок Холмс вигаданий персонаж");
+	})
+	
+	$(".false").click(function() {
+			$(this).addClass("chosen");
+			$(this).siblings().unbind("click");
+			falsek++
+	})
+
+	$(".knopka").click(function() {
+			$(this).text("МОЛОДЕЦЬ Ваш результат " + truek +" вірних відповідей і " + falsek + " невірних з 8 запитань");
+	})
+});
+</script>	
+<div class="question"><h2>Запитання 1 </h2>
+	<div class="question1">
+		 Перший презедент України
+	</div>
+			<ul>
+			<li class="fal fa-square square false"> Кучма
+			</li>
+			
+			<li class="fal fa-square square true"> Кравчук</li>
+			<li class="fal fa-square square  false"> Ющенко
+			</li>
+			
+		</ul>
+	<h2>Запитання 2</h2>
+	<div class="question1">
+		  Хто <i><u>перший </u></i>відкрив Америку</div>
+		<ul >
+		<li class="fal fa-square square  false"> Колумб
+			</li>
+			<li class="fal fa-square square false"> Васко да Гама
+			</li>
+			<li class="fal fa-square square  false"> Петро I
+			</li>
+			<li class="fal fa-square square true"> Вікинги
+			</li>
+		</ul>
+	<h2>Запитання 3 </h2>
+	<div class="question1">
+		 2+2*2=</div>
+		<ul >
+			<li class="fal fa-square square false">8</li>
+			<li class="fal fa-square square true">6</li>
+			<li class="fal fa-square square false">? </li>
+		</ul>
+	<h2>Запитання 4 </h2>
+	<div class="question1">
+		В якому році відбулося хрещення Русі</div>
+		<ul >
+					<li class="fal fa-square square false">982</li>
+			<li class="fal fa-square square false">546</li>
+			<li class="fal fa-square square false">876 </li>
+			<li class="fal fa-square square true">988 </li>
+		</ul>
+	<h2>Запитання 5 </h2>
+	<div class="question1"> Джордж Вашингтон, Шерлок Холмс , Людвіг Ван Бетховен, Наполеон Бонапарт, Вільям Шекспір  і Нерон - хто з них принципово відрізняється від інших?</div>
+		<ul >
+			<li class="fal fa-square square false">Джордж Вашингтон </li>
+			<li class="fal fa-square square false"> Наполеон Бонапарт</li>
+			<li class="fal fa-square square true3">Шерлок Холмс</li>
+			<li class="fal fa-square square false">нема зайвого</li>
+			<li class="fal fa-square square false"> Вільям Шекспір</li>
+			<li class="fal fa-square square false"> Нерон</li>
+			<li class="fal fa-square square false"> Людвіг Ван Бетховен</li>
+
+		</ul>
+		<h2>Запитання 6 </h2>
+	<div class="question1">  В 12-поверховому будинку є ліфт. На першому поверсі живе всього 2 людей, від поверху до поверху кількість мешканців збільшується вдвічі. На якому поверсі в цьому будинку частіше інших натискається кнопка виклику ліфта?</div>
+		<ul >
+			<li class="fal fa-square square true">1 </li>
+			<li class="fal fa-square square false">2 </li>
+			<li class="fal fa-square square false">3 </li>
+			<li class="fal fa-square square false">4 </li>
+			<li class="fal fa-square square false">5 </li>
+			<li class="fal fa-square square false">6 </li>
+			<li class="fal fa-square square false">7 </li>
+			<li class="fal fa-square square false">8 </li>
+			<li class="fal fa-square square false">9 </li>
+			<li class="fal fa-square square false">10 </li>
+			<li class="fal fa-square square false">11 </li>
+			<li class="fal fa-square square false">12</li>
+						<li class="fal fa-square square false">однаково</li>
+
+		</ul>
+		<h2>Запитання 7 </h2>
+	<div class="question1">  На гілці сиділо три пташки, дві <i>вирішило</i> полетіти. Скільки залишилося сидіти на гілці пташок?
+		</div>
+		<ul >
+					<li class="fal fa-square square false">0</li>
+			<li class="fal fa-square square false"> 1</li>
+			<li class="fal fa-square square false">2</li>
+			<li class="fal fa-square square true2">3 </li>
+		</ul>
+		<h2>Запитання 8 </h2>
+	<div class="question1">   Визначте в яку сторону їде автобус на рисунку: вліво чи вправо? <i><u>Діти із дитсадка майже миттєво на неї вірно відповідають!</i></u><br><img src="0015.gif">
+</div>
+		<ul >
+			<li class="fal fa-square square true1"> в ліво</li>
+			<li class="fal fa-square square false">в право </li>
+			<li class="fal fa-square square false"> не знаю</li>
+		</ul>
+		
+</div>
+<div class="knopka"><h1>Кінець</h1></div>
+	<div class="hand" ><a href="test.html">Повернутися на головну сторінку</a></div>
+</body>
+	</html>
